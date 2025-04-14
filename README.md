@@ -76,7 +76,7 @@ Key Components:
 ### **Backend Setup**
 ```bash
 # Clone repository
-git clone https://github.com/your-repo/ecommerce-weather.git
+git clone https://github.com/jayanthkrishnakalavapudi/E-Commerce-Final-Backend-Project.git
 cd ecommerce-weather/ecommerce-weather-backend-
 
 # Install dependencies
@@ -228,4 +228,4 @@ MIT License - Free for educational and commercial use
 
 ## **Contact**
 For support or contributions, please contact:   
-[GitHub Repository](https://github.com/your-repo/ecommerce-weather)
+[GitHub Repository](https://github.com/jayanthkrishnakalavapudi/E-Commerce-Final-Backend-Project.git)
