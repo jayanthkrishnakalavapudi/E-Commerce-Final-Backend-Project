@@ -1,0 +1,30 @@
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-14T20:44:40.610Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-14T20:44:44.577Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-14T21:00:39.037Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-14T21:00:41.061Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-14T21:00:50.312Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-14T21:00:51.165Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-14T21:05:21.676Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-14T21:05:24.748Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-14T21:10:23.520Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-14T21:10:27.052Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-14T21:15:21.472Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-14T21:15:29.083Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-14T21:16:56.841Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-14T21:16:58.342Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-14T21:17:06.964Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-14T21:17:07.961Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-14T21:21:07.610Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-14T21:21:09.789Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-14T21:21:16.320Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-14T21:21:18.680Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-14T21:22:32.727Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-14T21:22:35.913Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-14T21:34:17.879Z"}
+{"level":"info","message":"POST /api/users/login 200 327ms","meta":{"req":{"headers":{"accept-encoding":"gzip, deflate","connection":"close","content-length":"53","content-type":"application/json","host":"127.0.0.1:49809"},"httpVersion":"1.1","method":"POST","originalUrl":"/api/users/login","query":{},"url":"/api/users/login"},"res":{"statusCode":200},"responseTime":327},"timestamp":"2025-04-14T21:34:18.742Z"}
+{"level":"info","message":"POST /api/users/register 201 559ms","meta":{"req":{"headers":{"accept-encoding":"gzip, deflate","connection":"close","content-length":"72","content-type":"application/json","host":"127.0.0.1:49812"},"httpVersion":"1.1","method":"POST","originalUrl":"/api/users/register","query":{},"url":"/api/users/register"},"res":{"statusCode":201},"responseTime":559},"timestamp":"2025-04-14T21:34:22.368Z"}
+{"level":"info","message":"GET /api/users/me 200 272ms","meta":{"req":{"headers":{"accept-encoding":"gzip, deflate","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZmQ3ZjU5MTdlZWRiYzQ1YjlmNTJkOCIsImlhdCI6MTc0NDY2NjQ1OH0.z0__LBt4T_PE3warIlLQinUDKeduLXWNlr9Xc9IHDXQ","connection":"close","host":"127.0.0.1:49814"},"httpVersion":"1.1","method":"GET","originalUrl":"/api/users/me","query":{},"url":"/api/users/me"},"res":{"statusCode":200},"responseTime":272},"timestamp":"2025-04-14T21:34:24.115Z"}
+{"level":"info","message":"GET /api/products 200 784ms","meta":{"req":{"headers":{"accept-encoding":"gzip, deflate","connection":"close","host":"127.0.0.1:49816"},"httpVersion":"1.1","method":"GET","originalUrl":"/api/products","query":{},"url":"/api/products"},"res":{"statusCode":200},"responseTime":784},"timestamp":"2025-04-14T21:34:26.184Z"}
+{"level":"info","message":"GET /api/products/recommendations/weather?lat=35&lon=139 200 1144ms","meta":{"req":{"headers":{"accept-encoding":"gzip, deflate","connection":"close","host":"127.0.0.1:49821"},"httpVersion":"1.1","method":"GET","originalUrl":"/api/products/recommendations/weather?lat=35&lon=139","query":{"lat":"35","lon":"139"},"url":"/api/products/recommendations/weather?lat=35&lon=139"},"res":{"statusCode":200},"responseTime":1144},"timestamp":"2025-04-14T21:34:29.219Z"}
+{"level":"info","message":"POST /api/orders 400 16ms","meta":{"req":{"headers":{"accept-encoding":"gzip, deflate","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZmQ3ZjU5MTdlZWRiYzQ1YjlmNTJkOCIsImlhdCI6MTc0NDY2NjQ1OH0.z0__LBt4T_PE3warIlLQinUDKeduLXWNlr9Xc9IHDXQ","connection":"close","content-length":"68","content-type":"application/json","host":"127.0.0.1:49824"},"httpVersion":"1.1","method":"POST","originalUrl":"/api/orders","query":{},"url":"/api/orders"},"res":{"statusCode":400},"responseTime":16},"timestamp":"2025-04-14T21:34:29.603Z"}
+{"level":"info","message":"GET /api/categories 200 89ms","meta":{"req":{"headers":{"accept-encoding":"gzip, deflate","connection":"close","host":"127.0.0.1:49826"},"httpVersion":"1.1","method":"GET","originalUrl":"/api/categories","query":{},"url":"/api/categories"},"res":{"statusCode":200},"responseTime":89},"timestamp":"2025-04-14T21:34:30.770Z"}
