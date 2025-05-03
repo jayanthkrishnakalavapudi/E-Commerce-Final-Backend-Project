@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://e-commerce-backend-api-dev.onrender.com/',
+  baseURL: 'https://e-commerce-backend-api-dev.onrender.com/api',
 });
 
 // Add JWT to requests automatically
