@@ -30,7 +30,10 @@ const logger = winston.createLogger({
 });
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: ['https://e-commerce-final-backend-project.vercel.app/'],
+  credentials: true,
+}));
 app.use(express.json());
 
 // Request logging middleware
